@@ -7716,6 +7716,8 @@ public class LocalizedStrings {
   public static final StringId LuceneIndexCreation_INDEX_CANNOT_BE_CREATED_DUE_TO_PROFILE_VIOLATION =
       new StringId(6667,
           "Lucene index {0} cannot be created because its parameters are incompatible with another Lucene index");
+  public static final StringId LuceneIndexCreation_INDEX_WAS_DESTROYED_WHILE_BEING_CREATED =
+      new StringId(6668, "Lucene index {0} on region {1} was destroyed while being created");
   /** Testing strings, messageId 90000-99999 **/
 
   /**
